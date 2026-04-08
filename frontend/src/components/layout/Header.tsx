@@ -40,9 +40,12 @@ export function Header() {
           )}
 
           <Link to="/" className="flex items-center gap-3 cursor-pointer">
-            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-white to-white/60 flex items-center justify-center text-black font-bold text-xs shadow-[0_0_15px_rgba(255,255,255,0.2)]">
-              H
-            </div>
+            <img
+              src="/logo.svg"
+              alt=""
+              aria-hidden
+              className="h-7 w-7 rounded-lg object-contain shadow-[0_0_14px_rgba(255,255,255,0.22)]"
+            />
             <span className="font-medium tracking-tight text-sm text-zinc-100 truncate">Hireme.ai</span>
           </Link>
         </div>

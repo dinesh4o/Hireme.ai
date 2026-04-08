@@ -83,8 +83,8 @@ export function AuthPage() {
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="hidden lg:flex rounded-[28px] border border-white/[0.08] bg-black/35 backdrop-blur-xl p-10 flex-col justify-between"
           >
-            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-white to-white/70 flex items-center justify-center text-black text-xs font-black">
-              T
+            <div className="w-9 h-9 rounded-xl border border-white/10 bg-white/[0.03] p-1 shadow-[0_0_18px_rgba(255,255,255,0.12)]">
+              <img src="/logo.svg" alt="Hireme.ai logo" className="h-full w-full object-contain" />
             </div>
 
             <div>

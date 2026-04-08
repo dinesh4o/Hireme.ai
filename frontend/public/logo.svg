@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="metalBase" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6f6f7"/>
+      <stop offset="0.36" stop-color="#d8d9dc"/>
+      <stop offset="0.62" stop-color="#b4b7bd"/>
+      <stop offset="1" stop-color="#f1f2f5"/>
+    </linearGradient>
+    <radialGradient id="metalGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(63 40) rotate(90) scale(68)">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="edgeShade" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(62 106) rotate(-90) scale(72 84)">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringStroke" x1="45" y1="43" x2="82" y2="83" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#9fa4ab" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="logoShadow" x="4" y="4" width="120" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#ffffff" flood-opacity="0.25"/>
+    </filter>
+    <mask id="centerCutout" maskUnits="userSpaceOnUse" x="10" y="10" width="108" height="108">
+      <rect x="10" y="10" width="108" height="108" rx="27" fill="white"/>
+      <circle cx="64" cy="64" r="19" fill="black"/>
+    </mask>
+  </defs>
+
+  <g filter="url(#logoShadow)">
+    <g mask="url(#centerCutout)">
+      <rect x="10" y="10" width="108" height="108" rx="27" fill="url(#metalBase)"/>
+      <rect x="10" y="10" width="108" height="108" rx="27" fill="url(#metalGlow)"/>
+      <rect x="10" y="10" width="108" height="108" rx="27" fill="url(#edgeShade)"/>
+    </g>
+
+    <circle cx="64" cy="64" r="20.4" fill="none" stroke="url(#ringStroke)" stroke-width="2.8" stroke-opacity="0.75"/>
+  </g>
+</svg>
