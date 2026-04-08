@@ -20,3 +20,4 @@ test.txt
 test2.txt
 workspace_bak.txt
 .DS_Store
+.env.render
