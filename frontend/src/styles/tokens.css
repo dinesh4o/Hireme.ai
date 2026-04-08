@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --bg-main: #f4f2ef;
+  --bg-tint: #fff8f3;
+  --text-primary: #1a1715;
+  --text-secondary: #5b5651;
+  --text-muted: #8f8680;
+  --surface-elevated: rgba(255, 255, 255, 0.92);
+  --surface-alt: #fff7f1;
+  --surface-border: rgba(215, 204, 197, 0.86);
+  --surface-shadow: 0 22px 55px rgba(40, 22, 11, 0.11);
+  --accent: #ff5b2e;
+  --accent-strong: #ff3f1f;
+  --accent-soft: #ffe6dd;
+  --accent-pink: #ff89bb;
+  --accent-amber: #ffb057;
+  --accent-blue: #9ccdf7;
+  --success: #2f9a66;
+  --warning: #b77828;
+  --font-heading: 'Geist', 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+}
+
+:root.dark {
+  --bg-main: #0a0a0b;
+  --bg-tint: #141415;
+  --text-primary: #f2f2f2;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --surface-elevated: rgba(24, 24, 27, 0.92);
+  --surface-alt: #18181b;
+  --surface-border: rgba(63, 63, 70, 0.86);
+  --surface-shadow: 0 22px 55px rgba(0, 0, 0, 0.4);
+  --accent: #ff5b2e;
+  --accent-strong: #ff7f59;
+  --accent-soft: #2e1a14;
+  --accent-pink: #d94685;
+  --accent-amber: #d97706;
+  --accent-blue: #3b82f6;
+  --success: #10b981;
+  --warning: #f59e0b;
+}
