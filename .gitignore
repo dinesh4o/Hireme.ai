@@ -5,6 +5,8 @@ frontend/dist/
 # Python
 /.venv/
 backend/.venv/
+**/__pycache__/
+*.py[cod]
 backend/__pycache__/
 backend/.pytest_cache/
 backend/.mypy_cache/
@@ -14,4 +16,7 @@ backend/.mypy_cache/
 .env
 backend/.env
 frontend/.env
+test.txt
+test2.txt
+workspace_bak.txt
 .DS_Store
